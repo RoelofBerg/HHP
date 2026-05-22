@@ -41,6 +41,8 @@ Simulation depth:
 - Scenarios without internet access should _not_ be simulated by simply activating flight mode. Prefer simulations that are closer to real-world behavior, such as cutting off Wi‑Fi connectivity.
 - Ideally, the simulation should reflect situations like being out of Wi‑Fi range, which is common in customer environments. For example, in a hospital setting users may repeatedly move between online and offline areas as Wi‑Fi coverage is scattered across the campus.
 - Cellular connection: Tests should run with Wi‑Fi only, to avoid false negatives when WiFi and Cellular are both "conditioned".
+- Our software reacts differntly beween the conditions: No WiFi, Slow WiFi (incl. connected via 0 bit/s), Normal WiFi
+  Simularing No WiFi can best be done by really making the whole WiFi network invisible. Because a visible network with 0 bit/s is less the customer situation and an invisible network is the common case.
 
 ==============
 Gherkin tags:
