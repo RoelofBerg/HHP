@@ -87,3 +87,15 @@ The wifi is up until the app is logged in. Right after the login, the system goe
 
 @wifi_down_during_the_observation
 Same as wifi_down_during_the_audit but in My Hygiene SOP and Observe the corrent term is "observation".
+
+@android
+Android device, preferably Samsung
+
+@ios
+Apple device
+
+@phone
+Mobile phone device
+
+@tablet
+Tablet device
