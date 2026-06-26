@@ -1,0 +1,16 @@
+
+{
+  "files.associations": {
+    "*.feature": "gherkin"
+  },
+  "cucumberautocomplete.steps": [
+    "src/**/*.steps.ts",
+    "features/step_definitions/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "features/**/*.feature",
+
+
+  "[feature]": {
+    "editor.wordWrap": "on"
+  }
+}
